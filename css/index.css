@@ -1,0 +1,51 @@
+
+#main-img{
+    width: 100%;
+}
+#box{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.39) ;
+}
+@media only screen and (max-width: 950px) {
+    #box{
+        position: initial;
+        width: 100%;
+        padding: auto;
+        box-shadow: none;
+    }
+}
+
+.links-main{
+    background-color: rgba(205, 218, 218, 0.342);
+    width: 100%;
+    padding: 50px 20px;
+}
+.links-main>div>p>a{
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+#links-h3{
+font-size: 26px;
+}
+.links-h4{
+font-size: 21px;
+}
+.links-btn{
+    width: 180px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
+.links-btn:hover{
+    background-color: rgba(215, 218, 221, 0.582);
+    color: black;
+}

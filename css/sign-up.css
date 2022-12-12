@@ -1,0 +1,53 @@
+#sign-up{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forms{
+    width: 350px;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+.forms:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+.sign-up-btn{
+    width: 350px;
+    background-color: rgb(135, 16, 216)    ;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.button{
+    font-weight: 700;
+    color: white;
+}
+.form-check{
+    margin-top: 10px;
+}
+.font-size{
+    font-weight: 700;
+}
+#policy{
+    font-size: 12px;
+}
+#policy>a{
+    color: black;
+}
+#policy>a:hover{
+    color: rgb(135, 16, 216);
+}
+#already-account{
+    font-size: 15px;
+}
+#already-account>a{
+    color: rgb(135, 16, 216);
+    font-weight: 700;
+}

@@ -1,0 +1,46 @@
+#teaching-img{
+    width: 100%;
+   
+}
+.img-box{
+    width: 300px;
+    position:absolute;
+    top: 200px;
+    left: 80px;
+}
+.img-box>h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+.img-box>p{
+    font-size: 18px;
+}
+.img-box>a>button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 8px 100px;
+}
+@media only screen and (max-width: 1000px) {
+    .img-box{
+        position: initial;
+        width: 100%;
+        margin-left: 20px;
+
+    }
+}
+.card-main{
+    padding: 50px 20px;
+}
+#card-h1{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0px 30px ;
+    text-align: center;
+}

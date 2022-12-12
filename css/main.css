@@ -1,0 +1,85 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.main{
+width: 100%;
+}
+.navbar{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    background-color: rgba(223, 219, 219, 0.486);
+    width: 500px;
+    border-radius: 30px;
+    outline: none;
+}
+#search-icon{
+    height: 17px;
+}
+.has-search{
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+#logo{
+    height: 40px;
+}
+.btn-login{
+    outline: auto;
+    
+}
+.btn{
+    border-radius: 0px;
+}
+li{
+    margin: 3px;
+}
+#global{
+    border: 1px solid black;
+    margin-top: -5px;
+    padding: 5px;
+}
+.footer{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+}
+.footer>div>ul{
+    list-style: none;
+}
+.foot{
+    text-decoration: none;
+    color: white;
+}
+.foot:hover{
+    text-decoration: underline;
+    color: white;
+}
+#language{
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: white;
+}
+#language:hover{
+    background-color: #aaa;
+}

@@ -1,0 +1,57 @@
+#login{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph-login{
+    font-weight: 700;
+}
+.login-box{
+    border: 1px solid black;
+    width: 350px;
+    padding: 10px;
+    margin: 4px 0px 4px 0px;
+    font-weight: 700;
+}
+.login-btn{
+    width: 350px;
+    background-color: RGB(135, 16, 216)    ;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.button{
+    font-weight: 700;
+    color: white;
+}
+
+.con:hover{
+background-color: rgba(220, 220, 220, 0.521);
+cursor: pointer;
+}
+.form{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 0px;
+
+}
+.form:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+#forgot-password{
+    color: rgb(135, 16, 216);
+}
+.link{
+    font-weight: 700;
+    color: rgb(135, 16, 216);
+}
+.link:hover{
+ color: rgb(135, 16, 216);
+}
